@@ -1,0 +1,252 @@
+/**
+{
+border:2px solid;
+}*/
+
+html{height: 100%;}
+
+
+body{
+	background-color:#2c2c2a;
+	padding:0px;
+	margin: 0px;
+	color:#CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+
+	}
+
+a, a:visited{
+	color:#82974B;
+	text-decoration:none;
+	}
+
+a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+	
+	
+#wrap{
+	background:#1a1a16;
+	width:960px;
+	margin: 0px auto;
+	border-top:#82974b 8px solid;
+    
+	}
+#header{
+	height:200px;
+	background-image:url(images/logo.jpg);
+	background-color:#2c2c2a;
+	text-indent:-9999px;
+	}
+
+
+
+#navi
+{ background: #40403E;
+  height: 44px;
+  width: 960px;
+  border-bottom: #82974b 3px solid;
+}
+
+
+
+#navi li a:hover, #navi li a.selected, #navi li a.selected:hover
+{ background: #82974B;
+  color: #EEE;
+  border-color: #2C2C2A;
+  
+} 
+#navi ul{
+	margin: 0px auto;
+	padding:0px;
+} 
+
+#navi li
+{ float: left; 
+  margin: 0px; 
+  padding: 0px;
+  list-style: none;
+} 
+
+#navi li a 
+{ display: block;
+  float: left;
+  height: 38px;
+  color: #EEE;
+  text-decoration: none; 
+  padding: 6px 19px 0px 19px;
+  border-right: 2px solid;
+  border-color: #2C2C2A;
+  font-weight: bold;
+} 
+
+	
+	
+#content{
+overflow:hidden;
+padding: 10px;
+width:960px;
+clear:both;	
+	}
+	
+#cmain{
+	width:650px;
+	background:none;
+	float:left;
+	
+	}
+
+#cside{
+	width:250px;
+	float:right;
+	}
+	
+#cside li{
+	list-style:none;
+	margin-top: 35px;
+	}
+#cside img{
+	border: 0px;
+	}
+
+.saint {
+	padding-left: 35px;
+	}
+
+
+	
+#excel a{
+	width:235px;
+	height:75px;
+	display:block;
+	text-indent:-9999px;
+	background-image:url(images/excel.jpg);
+	background-position:top;
+	}
+	
+#excel a:hover{
+	background-image:url(images/excel.jpg);
+	background-position:bottom;
+	}
+	
+#footer{
+	height:40px;
+	
+	clear:both;
+	color:#FFFFFF;
+	padding:5px;
+	
+	background-color:#82974b;
+	}
+	
+#events-left{
+	float:left;
+	width:320px;
+	margin-left:50px;
+	margin-top:50px;
+	}
+
+
+#events-right{
+	float:right;
+	width:320px;
+	margin-right:50px;
+	margin-top:50px;
+	}
+.events-img{
+	border: 2px solid;
+	border-color:#FFFFFF;
+	margin-top:20px;
+	}
+
+.events-desc{
+	color:#FFFFCC;
+	margin: 0px ;
+	padding-left:50px;
+	}
+	
+
+	
+#papersubmit input {
+	background: #2C2C2A; 
+  	color: #929280;
+  	border-color: #40403E;
+	width: 299px; 
+        height:25px;
+ 	font-family: verdana, arial, sans-serif;
+  	font-size: 12px;
+  	border: 1px solid;
+  	
+  	margin: 2px;
+
+}
+
+#papersubmit input.submit
+{ width: 99px;
+  margin: 8px 0px 0px 220px;
+  height: 22px;
+  cursor: pointer;
+}
+
+#papersubmit input.check
+{ 
+   width:25px;
+  
+}
+
+
+#eventslide{
+
+
+}
+
+#eventslide ul{
+	list-style:none;
+	}
+
+#eventslide li{
+	margin-top:10px;
+	margin-bottom:0px;
+	}
+
+#eventslide img{
+	border:2px solid;
+	border-color:#FFFFCC;
+	}
+	
+.slidedesc{
+	color:#ffffcc;
+	padding-left:10px;
+	margin-top:0px;
+	}
+	
+#mainreg input{
+	background: #2C2C2A; 
+  	color: #929280;
+  	border-color: #40403E;
+	width: 299px; 
+ 	 font-family: verdana, arial, sans-serif;
+  	font-size: 100%;
+  	border: 1px solid;
+  	overflow: auto;
+  	margin: 2px;
+	}
+#mainreg .check{
+	
+	width:100px;
+
+	}
+	
+#mainreg input.submit
+{ width: 99px;
+  margin: 8px 0px 0px 220px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.foot
+{
+ padding:10px 50px;
+}

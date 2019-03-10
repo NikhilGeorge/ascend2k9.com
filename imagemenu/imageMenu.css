@@ -1,0 +1,75 @@
+
+/**************************************************************
+
+	Image Menu
+	v 2.2
+
+**************************************************************/
+
+
+#imageMenu {
+	
+	position:relative;
+	
+	width: 640px;
+	height: 200px;
+	overflow: hidden;
+}
+
+
+
+#imageMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1000px;
+	
+	}
+
+#imageMenu ul li {
+	float: left;
+}
+
+#imageMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:98px;
+	height: 200px;
+}
+
+#imageMenu ul li.paper a {
+	background: url(images/paper.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.debug a {
+	background: url(images/debug.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.design a {
+	background: url(images/design.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.game a {
+	background: url(images/game.jpg) repeat scroll 0%;
+}
+#imageMenu ul li.word a {
+	background: url(images/word.jpg) repeat scroll 0%;
+}
+
+
+#imageMenu ul li.treasure a {
+	background: url(images/treasure.jpg) repeat scroll 0%;
+	width: 310px;
+}
+
+.clear {
+	clear: both;
+}
+
+/*************************************************************/
+
